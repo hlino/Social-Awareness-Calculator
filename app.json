@@ -1,0 +1,6 @@
+{
+  "name": "Woke Calculator",
+  "description": "Determine user's social awareness based on their social media data.",
+  "repository": "https://github.com/MBartner/wokecalculator",
+  "keywords": ["node", "express", "static"]
+}

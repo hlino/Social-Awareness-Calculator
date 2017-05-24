@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ../partials/header.ejs %>
+    </head>
+<body id="body">
+    <a href="https://github.com/MBartner/wokecalculator">
+    <div id="header">
+        <div id="head-text-container">
+            <div id="head-text">
+                Created by Mike Bartner and Harrison Linowes
+            </div>
+        </div>
+    </div>
+    </a>
+    <div id="container">
+        <div id="main-text">
+            Woke Calculator
+        </div>
+        <br><br>
+        <div id="box">
+            <form action="/calculate">
+                Twitter Handle:<br>
+                @<input type="text" id="textBox" name="user"><br><br>
+                <input type="submit" id="submit" value="Calculate Wokeness!" >
+            </form>
+        </div><br><br><br>
+        <div id="message">
+            Woke is a unit of measurement that measures how socially conscious one is. Woke is also used as an adjective. Someone who is 'woke' knows what's going on in the community and is familiar with current events and affairs. This website scrapes your twitter data using your tweets to determine how woke you are on social media.
+        </div>
+    </div>
+</body>
+</html>
+<!--<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <br>
+    <br>
+    <h1 align="center">Are You Woke?</h1>
+    <p align ="center">Woke is a unit of measurement that measures how socially conscious one is. Woke is also used as an adjective. Someone who is 'woke' knows what's going on in the community and is familiar with current events and affairs. This website scrapes your twitter data using your tweets to determine how woke you are on social media.</p>
+  </div>
+</div>
+<div>
+<form action="./go">
+  Twitter Handle:<br>@
+  <input type="text" name="user" value="Mickey">
+  <br>
+  How woke is...
+  <br>
+  <input type="radio" name="type" value="feed"> Twitter Feed<br>
+  <input type="radio" name="type" value="personal"> Your Tweets<br>
+  <br><br>
+  <input type="submit" value="Submit" action="/go">
+</form> 
+</div>
+<hr>-->
