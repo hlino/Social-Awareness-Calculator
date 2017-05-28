@@ -1,6 +1,6 @@
 # Woke Calculator
 
-This is a project created for the university of Maryland's Bitcamp Hackathon.
+This is a project created for the University of Maryland's Bitcamp Hackathon.
 
 # Inspiration
 
